@@ -1,0 +1,164 @@
+body{
+    overflow: hidden;
+}
+
+.side{
+    background-color: #171F46;
+    height: 100vh;
+}
+
+.side .logo{
+    border-bottom: 1px solid #dee2e630;
+}
+.side .logo i:last-child{
+    text-align: right;
+    float: right;
+    line-height: 25px;
+    transition: all 1s;
+    cursor: pointer;
+}
+.side .logo i.root{
+    transform: rotate(-180deg);
+}
+
+.side ul{
+    border-bottom: 1px solid #dee2e630;
+}
+
+.side ul li{
+    font-size: 16px;
+    color:#7F839E;
+    transition: all 1s;
+    cursor: pointer;
+}
+.side ul li:hover{
+    background-color:#121534 ;
+}
+
+.side .projecs span:first-child{
+    color: #7F839E !important;
+}
+
+.side .projecs .pro .pro-color{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+.side .projecs .pro .pro-name{
+    width: 70%;
+    font-size: 14px;
+}
+
+nav{
+    border-bottom: 1px solid #eee;
+}
+
+nav .navbar-collapse ul .active{
+    border-bottom: 1px solid #3D69EE;
+}
+
+nav .search {
+    border:1px solid #eee;
+}
+
+nav .search span{
+    font-size: 12px;
+    color: #888;
+}
+
+nav .search input{
+    outline: none;
+    font-size: 12px;
+    width: 200px;
+}
+
+nav .search i{
+    color: #888;
+}
+
+nav .info img{
+    width: 40px;
+}
+
+nav .info span{
+    color: #3D69EE;
+    font-size: 12px;
+}
+nav .info i{
+    color: #888;
+    cursor: pointer;
+}
+
+.cont .title span .boll{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #BECDD1;
+}
+
+.cont .optional ul{
+    font-size: 12px;
+}
+
+.cont .optional input{
+    font-size: 12px;
+    width: 209px;
+    outline: none !important;
+    height: 10px;
+}
+.cont .optional button{
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 10px;
+}
+
+.cont .optional select{
+    font-size: 12px;
+    height: 50px;
+}
+.cont .cardes img {
+    width: 50px;
+}
+.cont .cardes h2 {
+    font-size: 16px;
+}
+.cont .cardes p {
+    font-size: 12px;
+    width: 85%;
+}
+.cont .cardes .card{
+    height: 195px;
+    transition: all 1s;
+}
+.cont .cardes .card:hover{
+    box-shadow: 0px 0px 15px -10px black;
+}
+
+.cont .cardes .card i {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+.last ul li{
+    color: #B3B3B5;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.last ul li:hover span{
+    transition: all .5s;
+    color:#3D69EE;
+}
+
+.last button{
+    width: 90%;
+    height: 40px;
+    font-size: 14px;
+    outline: none;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
